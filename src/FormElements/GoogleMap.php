@@ -13,6 +13,6 @@ class GoogleMap extends NamedFormElement {
     }
     public function render() {
         dd($this->toArray());
-        return view('webakula::form-element.google-map', $this->toArray())->render();
+        return view('webakula::form-element.google-map', $this->toArray())->render();//
     }
 }
