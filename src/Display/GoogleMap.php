@@ -18,6 +18,7 @@ class GoogleMap extends NamedColumn
 
     /**
      * @return array
+     * zzz
      */
     public function toArray()
     {
