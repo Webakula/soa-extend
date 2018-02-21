@@ -5,7 +5,7 @@ namespace Webakula\Admin\Providers;
 use AdminFormElement;
 use AdminColumn;
 use Illuminate\Support\ServiceProvider;
-use Webakula\Admin\Display\GoogleMap;
+use Webakula\Admin\FormElements\googleMap;
 use SleepingOwl\Admin\Contracts\Widgets\WidgetsRegistryInterface;
 
 class WebakulaOwlServiceProvider extends ServiceProvider {
@@ -21,6 +21,6 @@ class WebakulaOwlServiceProvider extends ServiceProvider {
         ], 'config');
     }
     public function register() {
-        AdminFormElement::add('googleMap', GoogleMap::class);
+        AdminFormElement::add('googleMap', googleMap::class);
     }
 }
