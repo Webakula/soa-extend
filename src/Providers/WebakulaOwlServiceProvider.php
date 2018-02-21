@@ -17,7 +17,7 @@ class WebakulaOwlServiceProvider extends ServiceProvider {
         ], 'public');
 
         $this->publishes([
-            __DIR__.'/../../config/webakula_owl_extend.php' => config_path('sleeping_owl_extend.php'),
+            __DIR__.'/../../config/webakula_owl_extend.php' => config_path('webakula_owl_extend.php'),
         ], 'config');
     }
     public function register() {
