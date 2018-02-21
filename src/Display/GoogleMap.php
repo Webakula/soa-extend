@@ -9,7 +9,7 @@ class GoogleMap extends NamedColumn
     /**
      * @var string
      */
-    protected $view = 'webakula::display.coords';
+    protected $view = 'webakula::form-element.google-map';
 
     /**
      * @var bool
