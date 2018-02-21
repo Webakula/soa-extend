@@ -12,7 +12,6 @@ class googleMap extends NamedFormElement {
         Meta::addJs('admin-custom-js-gmap-init', asset('vendor/webakula/js/google-map/google-map.js'));
     }
     public function render() {
-        dd($this->toArray());
         return view('webakula::form-element.google-map', $this->toArray())->render();//
     }
 }
