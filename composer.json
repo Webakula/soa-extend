@@ -1,0 +1,28 @@
+{
+  "name": "webakula/soa_extend",
+  "description": "Extend Owl Admin",
+  "license": "MIT",
+  "version": "1.0.3",
+  "authors": [
+    {
+      "name": "Webakula",
+      "email": "vlad.os.011235@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravelrus/sleepingowl": "dev-development"
+  },
+  "autoload": {
+    "psr-4": {
+      "Webakula\\Admin\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Webakula\\Admin\\Providers\\WebakulaOwlServiceProvider"
+      ]
+    }
+  }
+}
